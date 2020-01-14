@@ -6,7 +6,8 @@ using namespace std;
 int main()
 {
     MinHeap minheap;
-    vector<int> heap{4,5,8,2};
+    vector<int> heap;
+    cout << heap.size() - 1 << endl;
     minheap.heapify(heap);
     cout << minheap.pop() << endl;
     

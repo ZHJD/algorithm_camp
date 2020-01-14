@@ -59,7 +59,7 @@ private:
        }
        m_heap[i] = temp;
     }
-
+    // 向上调整
     void adjust_up()
     {
         int j = m_heap.size() - 1;
